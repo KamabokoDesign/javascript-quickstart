@@ -3,7 +3,8 @@ useful javascript functions I use all the time
 
 
 
-unwrapping tags to make a clean string (used for scrapers)
+## unwrapping tags 
+to make a clean string (used for scrapers)
 ```
 function unwrap(selector) {
 var nodelist = document.querySelectorAll(selector);
